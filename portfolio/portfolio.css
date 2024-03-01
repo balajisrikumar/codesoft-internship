@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color:antiquewhite;
+    
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.line{
+    color: rgb(8, 0, 0);
+}
+.logo {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    color: black;
+    cursor: default;
+    text-align: right;
+}
+.logo span {
+    color: black;
+}
+.navigation {
+    margin-left: 00px;
+}
+.navigation a {
+    font-size: 1.1em;
+    color: black;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    transition: .3s;
+}
+.navigation a:hover {
+    color: orangered;
+}
+.btn-talk {
+    color: black;
+    text-decoration: none;
+    padding: 8px 35px;
+    background: black;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-weight: 500;
+    transition: .3s;
+}
+.btn-talk:hover {
+    color: black;
+    background: transparent;
+}
+.home {
+    position:relative;
+    width: 80%;
+    height: 100vh;
+    background: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    text-align: front;
+    
+}
+.content {
+    max-width: 500px;
+    color: rgb(0, 0, 0);
+    text-align: front;
+}
+.content h2 {
+    font-size: 3em;
+}
+.content h2 span {
+    color: orange;
+}
+.content h4 {
+    font-size: 2em;
+}
+.content p {
+    padding: 10px 0 40px 0;
+}
+.btn-group a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 40px;
+    background: black;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-weight: 500;
+    transition: .3s;
+}
+.btn-group a:hover:nth-child(1) {
+    color: black;
+    background: transparent;
+}
+.btn-group a:nth-child(2) {
+    color: black;
+    background: transparent;
+    margin-left: 30px;
+    padding: 10px 30px;
+}
+.btn-group a:hover:nth-child(2) {
+    color: white;
+    background: black;
+}
+.profile{
+    float:left;
+    padding:90px 20px;
+    padding-right: 3
+}
+* {box-sizing: border-box
+    
+}
+.container {
+    border: black;
+  padding: 16px;
+  width: 40%;
+}
+input[type=text], textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: black;
+  background: #f1f1f1;
+}
+.registerbtn {
+    background-color: black;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: black;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.9;
+}
+  
+  .registerbtn:hover {
+    opacity:1;
+  }
+  
